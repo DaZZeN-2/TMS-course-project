@@ -19,6 +19,7 @@
 
     .logo-wrapper {
         margin-left: 100px;
+        cursor: pointer;
     }
 
     .navigation-wrapper {
@@ -40,6 +41,7 @@
         height: 43px;
         color: #FFFFFF;
         font-size: 15px;
+        cursor: pointer;
     }
 }
 
@@ -71,6 +73,7 @@
             height: 43px;
             color: #FFFFFF;
             border-radius: 25px;
+            cursor: pointer;
         }
 
         .delivery-works {
@@ -80,6 +83,7 @@
             color: #000000;
             border-radius: 25px;
             border: 2px solid #FFFFFF;
+            cursor: pointer;
         }
     }
 
@@ -211,5 +215,65 @@
             }
         }
         
+    }
+}
+
+
+.tracking-page-wrapper {
+    height: 70vh;
+    display: flex;
+    
+
+    .tracking-page-title {
+        font-size: 61px;
+        width: 469px;
+        height: 147px;
+        margin: 101px 0 0 100px;
+    }
+
+    .tracking-page-text {
+        width: 517px;
+        height: 72px;
+        margin: 23px 0 0 100px;
+    }
+
+    .tracking-page-button {
+        background-color: #000000;
+        border-radius: 25px;
+        width: 153px;
+        height: 43px;
+        color: #FFFFFF;
+        margin: 16px 0 0 100px;
+    }
+
+    .tracking-page-image {
+        width: 605px;
+        height: 342px;
+        margin: 101px 100px 0 118px;
+        
+    }
+}
+
+.affordable-delivery-wrapper {
+    height: 100vh;
+    background-color: #FAFAFA;
+
+
+    .affordable-delivery {
+        display: none;
+    }
+
+    .affordable-delivery-shop {
+
+        .order-summary {
+            height: 57px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .order-summary-arrow {
+            width: 8.95px;
+            height: 4.98px;
+        }
     }
 }
