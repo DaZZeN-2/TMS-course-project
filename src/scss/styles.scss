@@ -257,10 +257,24 @@
 .affordable-delivery-wrapper {
     height: 100vh;
     background-color: #FAFAFA;
+    
 
 
     .affordable-delivery {
-        display: none;
+        display: block;
+        
+
+        .afforable-delivery-title {
+            width: 529px;
+            height: 147px;
+            font-size: 61px;
+        }
+
+        .afforable-delivery-text {
+            width: 477px;
+            height: 72px;
+            font-size: 16px;
+        }
     }
 
     .affordable-delivery-shop {
@@ -269,11 +283,97 @@
             height: 57px;
             display: flex;
             align-items: center;
+            border-top: 1px solid #E4E4E4;
+            border-bottom: 1px solid #E4E4E4;
+            width: 250px;
+            margin-left: 303px;
         }
         
         .order-summary-arrow {
             width: 8.95px;
             height: 4.98px;
+            margin-left: 5px;
         }
     }
+}
+
+.expanding-wrapper {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+
+    .expanding-text-wrapper {
+
+        .expanding-title {
+            font-size: 61px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .expanding-text {
+            font-size: 16px;
+            width: 510px;
+            text-align: center;
+            margin-left: 255px;
+            margin-top: 23px;
+        }
+
+        .expanding-text-country {
+            font-size: 16px;
+            margin-left: 355px;
+            margin-top: 12px;
+        }
+    }
+}
+
+.asked-questions-wrapper {
+    justify-content: center;
+    height: 80vh;
+
+    .asked-questions-title {
+        font-size: 61px;
+        display: flex;
+        justify-content: center;
+        margin-top: 140px;
+    }
+
+    .accordion {
+        width: 750px;
+        margin: 0 auto;
+
+        .accordion-item {
+            position: relative;
+
+            margin-bottom: 20px;
+
+            .accordion-item__trigger {
+                display: block;
+                height: 50px;
+                margin-top: 40px;
+                border-bottom: 2px solid #000000;
+                cursor: pointer;
+            }
+
+            .accordion-item__content {
+                padding: 20px;
+                border: 2px solid black;
+                border-top: none;
+                display: none;
+            }
+
+            .accordion-item__input {
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+            }
+
+            .accordion-item__input:checked ~ .accordion-item__content {
+                display: block;
+            }
+
+
+        }
+    }
+
 }
