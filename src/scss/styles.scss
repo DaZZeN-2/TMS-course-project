@@ -255,8 +255,9 @@
 }
 
 .affordable-delivery-wrapper {
-    height: 100vh;
+    height: 110vh;
     background-color: #FAFAFA;
+    display: flex;
     
 
 
@@ -268,31 +269,228 @@
             width: 529px;
             height: 147px;
             font-size: 61px;
+            margin-left: 100px;
+            margin-top: 241px;
         }
 
         .afforable-delivery-text {
             width: 477px;
             height: 72px;
             font-size: 16px;
+            margin-left: 100px;
         }
     }
 
     .affordable-delivery-shop {
 
-        .order-summary {
+        .Shipping {
+            margin: 30px 0 0 154px;
+        }
+
+        .continue-to-payment {
+            color: #FFFFFF;
+            width: 400px;
+            height: 71.64px;
+            border-radius: 10px;
+            background-color: #000000;
+            margin: 15px 0 0 154px;
+        }
+
+        .same-day-shop-wrapper {
+            display: block;
+            width: 402.63px;
+            height: 190px;
+            border-radius: 10px;
+            border: 2px solid #E4E4E4;
+            margin: 20px 0 0 153px;
+
+            .same-day-line {
+                height: 1px;
+                background-color: #E4E4E4;
+            }
+
+            .standard-wrapper {
+                height: 57.71px;
+                display: flex;
+                align-items: center;
+                margin-left: 17px;
+
+                .same-day-input {
+                    width: 20px;
+                    height: 20px;
+                    cursor: pointer;
+                }
+
+                .same-day-label {
+                    margin-left: 13px;
+                    cursor: pointer;
+                }
+
+                .shop-ammount-text1 {
+                    font-weight: bold;
+                    margin-left: 230px;
+                }
+            }
+
+            .expedited-wrapper {
+                height: 57.71px;
+                display: flex;
+                align-items: center;
+                margin-left: 17px;
+
+                .same-day-input {
+                    width: 20px;
+                    height: 20px;
+                    cursor: pointer;
+                }
+
+                .same-day-label {
+                    margin-left: 13px;
+                    cursor: pointer;
+                }
+
+                .shop-ammount-text2 {
+                    font-weight: bold;
+                    margin-left: 215px;
+                }
+            }
+
+            .same-day-wrapper {
+                height: 65.67px;
+                display: flex;
+                align-items: center;
+                margin-left: 17px;
+
+                .same-day-input {
+                    width: 20px;
+                    height: 20px;
+                    cursor: pointer;
+                }
+
+                .same-day-label {
+                    margin-left: 13px;
+                    cursor: pointer;
+                }
+
+                .shop-ammount-text3 {
+                    font-weight: bold;
+                    margin-left: 60px;
+                }
+            }
+        }
+
+        .contact-ship-to-wrapper {
+            width: 402.63px;
+            height: 200px;
+            border-radius: 10px;
+            border: 2px solid #E4E4E4;
+            margin: 20px 0 0 153px;
+
+            .contact-ship-to-line {
+                display: flex;
+                margin: 0 auto;
+                width: 367px;
+                height: 1px;
+                background-color: #E4E4E4;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .contact-wrapper {
+                display: flex;
+                
+                .contact-change {
+                    margin-top: 25px;
+                    margin-left: 200px;
+                }
+
+                .contact-title {
+                    margin-left: 18px;
+                    margin-top: 22px;
+                    color: #686868;
+                }
+
+                .contact-text {
+                    margin-left: 18px;
+                }
+            }
+
+            .ship-to-wrapper {
+                display: flex;
+
+                .ship-to-change {
+                    margin-top: 5px;
+                    margin-left: -17px;
+                }
+
+                .ship-to-title {
+                    margin-left: 18px;
+                    color: #686868;
+                }
+
+                .ship-to-text {
+                    margin-left: 18px;
+                }
+            }
+        }
+
+
+
+
+        .order-summary-1 {
             height: 57px;
             display: flex;
             align-items: center;
             border-top: 1px solid #E4E4E4;
             border-bottom: 1px solid #E4E4E4;
-            width: 250px;
-            margin-left: 303px;
+            width: 400px;
+            margin-left: 154px;
+            margin-top: 70px;
+
+            .order-ammount {
+                margin-left: 105px;
+            }
+
+            .order-ammount p {
+                font-weight: bold;
+            }
         }
         
         .order-summary-arrow {
             width: 8.95px;
             height: 4.98px;
             margin-left: 5px;
+        
+    }
+
+        .information-wrapper {
+            display: flex;
+            align-items: center;
+            margin-left: 153px;
+            margin-top: 20px;
+
+            .information-arrow {
+                width: 4.97px;
+                height: 8.96px;
+            
+            }
+
+            .information-text-info {
+                padding: 0 9px 0 0;
+                font-size: 16px;
+            }
+
+            .information-text-shipping {
+                padding: 0 9px 0 9px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            .information-text-payment {
+                padding: 0 0 0 9px;
+                font-size: 16px;
+                color: #686868;
+            }
         }
     }
 }
@@ -377,7 +575,7 @@
 }
 
 .localli-today {
-    height: 100vh;
+    height: 80vh;
 
     .localli-today-wrapper {
         margin: 0 auto;
@@ -426,6 +624,6 @@
         width: 1240px;
         background-color: #E5E5E5;
         margin: 0 auto;
-        margin-top: 230px;
+        margin-top: 90px;
     }
 }
