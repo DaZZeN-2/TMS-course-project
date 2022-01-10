@@ -542,15 +542,35 @@
 
         .accordion-item {
             position: relative;
-
             margin-bottom: 20px;
 
+
             .accordion-item__trigger {
-                display: block;
+                display: flex;
                 height: 50px;
                 margin-top: 40px;
                 border-bottom: 2px solid #000000;
                 cursor: pointer;
+
+                .accordion-arrow-delivery1 {
+                    margin-left: 508px;
+                }
+
+                .accordion-arrow-delivery2 {
+                    margin-left: 432px;
+                }
+
+                .accordion-arrow-delivery3 {
+                    margin-left: 420px;
+                }
+
+                .accordion-arrow-delivery4 {
+                    margin-left: 313px;
+                }
+
+                .accordion-arrow-delivery5 {
+                    margin-left: 572px;
+                }
             }
 
             .accordion-item__content {
@@ -572,7 +592,6 @@
             }
         }
     }
-
 }
 
 .localli-today {
@@ -723,4 +742,209 @@
             }
         }
     }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-wrapper {
+        width: 768px;
+
+        .logo-wrapper {
+            margin: 0;
+            margin-left: 50px;
+        }
+
+        .navigation-wrapper {
+            margin: 0;
+        }
+    }
+
+    .delivery-wrapper {
+
+        .localli-img {
+            width: 768px;
+        }
+
+        .localli-wrapper {
+
+            .localli-title {
+                font-size: 46px;
+                width: 768px;
+                height: auto;
+            }
+        }
+
+        .delivery-img {
+            width: 768px;
+        }
+
+        .delivery-title {
+            font-size: 50px;
+        }
+
+        .delivery-text {
+            font-size: 16px;
+        }
+
+        .store-wrapper {
+            .store-conversions {
+                align-items: center;
+
+                .store-img {
+                    width: 20px;
+                    height: 20px;
+                }
+
+                .store-text {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .delivery-experience {
+            align-items: center;
+
+            .store-img {
+                width: 20px;
+                height: 20px;
+            }
+
+            .store-text {
+                font-size: 15px;
+            }
+        }
+
+        .abandoned-carts {
+            align-items: center;
+
+            .store-img {
+                width: 20px;
+                height: 20px;
+            }
+
+            .store-text {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .how-it-works-wrapper {
+        .content-wrapper {
+            .connect-wrapper {
+                margin-left: 0;
+
+                .connect-text {
+                    font-size: 14px;
+                    width: 260px;
+                }
+
+                .connect-title {
+                    font-size: 17px;
+                }
+
+                .connect-img {
+                    width: 260px;
+                }
+            }
+
+            .sort-and-store-wrapper {
+                margin-left: 0;
+
+                .connect-img {
+                    width: 162px;
+                }
+    
+                .connect-title {
+                    font-size: 17px;
+                }
+    
+                .connect-text {
+                    font-size: 14px;
+                    width: 240px;
+                }
+            }
+
+            .shipped-delivered-wrapper {
+                margin-left: 0;
+
+                .connect-img {
+                    width: 185px;
+                }
+
+                .shipped-delivered-title {
+                    font-size: 17px;
+                }
+
+                .shipped-delivered-text {
+                    font-size: 14px;
+                    width: 263px;
+                }
+            }
+        }
+    }
+
+    .tracking-page-wrapper {
+        display: block;
+        height: 120vh;
+
+        .tracking-page-image {
+            margin: 101px 100px 0 58px;
+        }
+    }
+
+    .affordable-delivery-wrapper {
+        display: block;
+        height: 150vh;
+
+        .affordable-delivery {
+            .afforable-delivery-title {
+                margin-top: 55px;
+            }
+        }
+    }
+
+    .expanding-wrapper {
+        .expanding-text-wrapper {
+            .expanding-image {
+                width: 750px;
+            }
+
+            .expanding-text {
+                margin-left: 130px;
+            }
+
+            .expanding-text-country {
+
+                margin-left: 228px;
+            }
+        }
+    }
+
+    .localli-today {
+        height: 100vh;
+
+        .localli-today-wrapper {
+            display: block;
+            width: 768px;
+            height: 600px;
+            margin-top: 20px;
+        }
+
+        .localli-today-line {
+            width: 768px;
+        }
+    }
+
+    .footer-wrapper {
+        .footer-logo-wrapper {
+            margin-left: 30px;
+        }
+
+        .footer-links-wrapper {
+            margin-left: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    
 }
